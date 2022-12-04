@@ -1,0 +1,29 @@
+
+/*HEADER CONTACTS*/
+
+
+.link-contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link-mail-icon {
+    fill: $primary-text-color;
+    margin-right: 10px;
+  }
+  
+  .link-mail:hover, .link-mail-icon,
+  .link-mail:focus, .link-mail-icon {
+    fill: currentcolor;
+  }
+  
+  .link-tel-icon {
+    fill: $primary-text-color;
+    margin-right: 10px;
+  }
+  
+  .link-mail:hover, .link-tel-icon,
+  .link-mail:focus, .link-tel-icon {
+    fill: currentcolor;
+  }
+  

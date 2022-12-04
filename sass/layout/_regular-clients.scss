@@ -1,0 +1,50 @@
+
+/*OUR REGULAR CLIENTS*/
+
+.clients {
+  background-color: $pure-white-color;
+}
+
+.client-logo__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.client-logo__item {
+  width: 170px;
+  height: 92px;
+  padding: 0;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px ;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.client-logo__link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+.client-logo__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: $social-icon-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-logo__link:hover .client-logo__icon,
+.client-logo__link:focus .client-logo__icon {
+  fill: $accent-blue-color;
+}
+
+.client-logo__item:hover,
+.client-logo__item:focus {
+  border-color: $accent-blue-color;
+}

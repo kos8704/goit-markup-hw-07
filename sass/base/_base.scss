@@ -1,0 +1,74 @@
+/*MAIN TAGS*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $pure-white-color;
+  color: $primary-text-color;
+  font-family: $main-font;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+a:hover,
+a:focus,
+a.current {
+  color: $accent-blue-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+/*CLASS*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-list {
+  display: flex;
+  margin-left: 30px;
+}
+
+.container .no-padding {
+  padding-top: 0;
+}

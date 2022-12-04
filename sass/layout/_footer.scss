@@ -1,0 +1,137 @@
+/* FOOTER */
+
+.container.no-padding {
+    padding: 0;
+  }
+  
+  
+.footer  {
+    background-color: $main-bckgd-color;
+    color: $pure-white-color;
+    line-height: 1.71;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+.footer .footer__list {
+    font-style: normal;
+  }
+  
+.footer__list .mail,
+.footer__list .tel {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+.footer__list .mail:hover,
+.footer__list .tel:hover {
+    color: $accent-blue-color;
+  }
+  
+.footer__list .mail:focus,
+.footer__list .tel:focus {
+    color: $accent-blue-color;
+  }
+  
+.footer .logo {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  
+.footer__list-element {
+    margin-bottom: 9px;
+  }
+  
+.footer__list-element a {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+.logo-footer {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+.logo-footer {
+    color: $pure-white-color;
+  
+   &:hover,
+   &:focus {
+    color: $accent-blue-color;
+    }
+  }
+  
+.join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $pure-white-color;
+    margin-bottom: 20px;
+  }
+  
+.footer__social-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+.footer__social-icon {
+    fill: $pure-white-color;
+  }
+  
+.footer__social-item {
+    width: 44px;
+    height: 44px;
+  }
+  
+.footer__social-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 10%);
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+     &:hover,
+     &:focus {
+        background-color: $accent-blue-color;
+    }
+  }
+  
+.footer__contacts-social {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+  }
+  
+.footer__mail-input {
+    display: block;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: $main-bckgd-color;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: var(--primary-white-color);
+  
+  
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
+.footer__mail-send {
+    display: flex;
+    gap: 12px;
+  }
+  

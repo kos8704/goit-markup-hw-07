@@ -1,0 +1,22 @@
+// UTILS
+@import "./utils/_variables.scss";
+@import "./utils/_visually-hidden.scss";
+
+// BASE
+@import "./base/_base.scss";
+
+// COMPONENTS
+@import "./components/_button.scss";
+@import "./components/_modals.scss";
+
+// LAYOUT
+@import "./layout/_logo.scss";
+@import "./layout/_header.scss";
+@import "./layout/_header-contacts.scss";
+@import "./layout/_hero.scss";
+@import "./layout/_principals.scss";
+@import "./layout/_team.scss";
+@import "./layout/_regular-clients.scss";
+@import "./layout/_portfolio.scss";
+@import "./layout/_footer.scss";
+
